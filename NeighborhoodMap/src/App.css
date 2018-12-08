@@ -1,0 +1,92 @@
+.App 
+{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1.heading 
+{
+  color: #fff;
+}
+
+h2.heading 
+{
+  color: #fff;
+  font-size: 36px;
+}
+
+h1 
+{
+  color: #000;
+}
+
+/*  reference from https://alligator.io/react/react-burger-menu-sidebar*/
+
+.bm-burger-button 
+{
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 60px;
+}
+
+.bm-burger-bars
+{
+  background: #373a47;
+}
+
+.bm-cross-button 
+{
+  height: 14px;
+  width: 14px;
+}
+
+.bm-cross
+{
+  background: #e3e6e8;
+}
+
+.bm-menu 
+{
+  background: #08415E;
+  padding: 2.5em 1.5em 0;
+  font-size: 14px;
+}
+
+.bm-item
+{
+  display: inline-block;
+}
+
+.bm-overlay
+{
+  background: #08415E;
+}
+
+input#search 
+{
+  padding: 20px;
+  font-size: 1rem;
+  width: 85%;
+  height: 2rem;
+  margin-top: 10%;
+  
+}
+
+li.listItem 
+{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.5rem;
+  background: #14ADD8  ;
+  color: white;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
